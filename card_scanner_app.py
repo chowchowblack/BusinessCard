@@ -184,7 +184,7 @@ def main():
     st.markdown("拍照上傳名片,自動辨識並存入 Excel")
     
     # 🔒 密碼設定與 Session State
-    SECRET_PASSWORD = "YOUR_SECRET_PASSWORD"  # <<< ⚠️ 請將此處替換為您的密碼！
+    SECRET_PASSWORD = "YZsz45;#"  # <<< ⚠️ 請將此處替換為您的密碼！
     if 'authenticated' not in st.session_state:
         st.session_state.authenticated = False
     if 'show_all' not in st.session_state:
